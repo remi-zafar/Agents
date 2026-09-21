@@ -1,0 +1,22 @@
+node_modules/
+dist/
+build/
+coverage/
+
+# runtime state
+data/
+workspace/
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# secrets
+.env
+.env.local
+server/.env
+
+# editors / os
+.DS_Store
+.idea/
+.vscode/
